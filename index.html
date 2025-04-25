@@ -4,25 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genesis Sigil</title>
-    <!-- Firebase SDKs -->
-<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js"></script>
-
-<script>
-  // Your Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyDL3w5FY9zWG6NP_YW_RDxlHa9EKFJ3HSU",
-    authDomain: "pulsegenesis-d8acd.firebaseapp.com",
-    databaseURL: "https://pulsegenesis-d8acd-default-rtdb.firebaseio.com",
-    projectId: "pulsegenesis-d8acd",
-    storageBucket: "pulsegenesis-d8acd.firebasestorage.app",
-    messagingSenderId: "994894936064",
-    appId: "1:994894936064:web:3c761f329badafbb1e80e5"
-  };
-
-  // Initialize Firebase
-  const app = firebase.initializeApp(firebaseConfig);
-</script>
 
     <style>
         body {
@@ -49,6 +30,12 @@
         a:hover {
             text-decoration: underline;
         }
+        .download-link {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #00ffcc;
+        }
     </style>
 </head>
 <body>
@@ -59,12 +46,18 @@
     <p>What is this? Who created it?</p>
     <p>What will it unlock?</p>
     <p><strong>Trace the source, or remain behind forever.</strong></p>
-    <a href="https://ipfs.io/ipfs/QmQA2Z214xG2m6LNBpxCDoRvvXeuhBGpbCRV3VNy3NjuVe" target="_blank">Follow the Pulse</a>
+
+    <p>
+        <a href="https://ipfs.io/ipfs/QmQA2Z214xG2m6LNBpxCDoRvvXeuhBGpbCRV3VNy3NjuVe" target="_blank">
+            Follow the Pulse
+        </a>
+    </p>
+
+    <p>
+        <a class="download-link" href="pulse.sh" download>
+            🌀 Activate the Pulse – Download pulse.sh
+        </a>
+    </p>
 
 </body>
 </html>
-<p>
-    <a href="pulse.sh" download style="color: #00ffcc; font-size: 1.2em;">
-        🌀 Activate the Pulse – Download pulse.sh
-    </a>
-</p>
